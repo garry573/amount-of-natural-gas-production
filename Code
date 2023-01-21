@@ -1,0 +1,10 @@
+let gasProduction = 0;
+
+function trackGasProduction(amount) {
+  gasProduction += amount;
+  console.log("Total natural gas production: " + gasProduction + " cubic meters");
+}
+
+trackGasProduction(25); // Total natural gas production: 25 cubic meters
+trackGasProduction(50); // Total natural gas production: 75 cubic meters
+trackGasProduction(100); // Total natural gas production: 175 cubic meters
